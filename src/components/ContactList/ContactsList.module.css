@@ -1,0 +1,35 @@
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  white-space: nowrap;
+}
+
+.name {
+  font-weight: bold;
+  flex-grow: 1;
+}
+
+.number {
+  color: #999;
+}
+
+.deleteButton {
+  padding: 4px 8px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  background-color: #d32f2f;
+}
